@@ -1,70 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechStore</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>  Tech Store</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header>
-    <h1>TechStore</h1>
+<header class="navbar">
+<div class="logo"><span>TECH</span></div>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="cart.html">Cart</a>
-    </nav>
+<nav>
+<a href="index.html" class="active">Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">Cart <b id="cart-count">0</b></a>
+<a href="checkout.html">Checkout</a>
+</nav>
 </header>
 
-<main>
+<section class="hero">
+<div class="hero-content">
+<p class="tagline">⚡ NEXT-GEN TECHNOLOGY</p>
 
-    <section class="hero">
-        <h2>Welcome to TechStore</h2>
-        <p>Your one-stop shop for amazing technology products.</p>
-        <a href="products.html">Shop Now</a>
-    </section>
+<h1>Upgrade Your<br><span>Digital Life.</span></h1>
 
-    <section>
-        <h2>Featured Products</h2>
+<p class="hero-text">
+Discover powerful gadgets, smart devices and premium technology
+at amazing prices.
+</p>
 
-        <div class="products">
+<div class="hero-buttons">
+<a href="products.html" class="primary-btn">Shop Now →</a>
+<a href="products.html" class="secondary-btn">Explore Products</a>
+</div>
 
-            <div class="product">
-                <img src="https://placehold.co/300x200?text=Laptop" alt="Laptop">
-                <h3>Laptop</h3>
-                <p>₹55,999</p>
-            </div>
+<div class="hero-stats">
+<div>
+<strong>500+</strong>
+<small>Products</small>
+</div>
+<div>
+<strong>10K+</strong>
+<small>Customers</small>
+</div>
+<div>
+<strong>4.9★</strong>
+<small>Rating</small>
+</div>
+</div>
+</div>
 
-            <div class="product">
-                <img src="https://placehold.co/300x200?text=Phone" alt="Phone">
-                <h3>Smartphone</h3>
-                <p>₹29,999</p>
-            </div>
+<div class="hero-image">
+<div class="glow"></div>
+<div class="tech-circle">
+<span>💻</span>
+</div>
+</div>
+</section>
 
-            <div class="product">
-                <img src="https://placehold.co/300x200?text=Headphones" alt="Headphones">
-                <h3>Headphones</h3>
-                <p>₹2,999</p>
-            </div>
+<section class="categories">
+<div class="section-title">
+<p>EXPLORE</p>
+<h2>Shop By Category</h2>
+</div>
 
-            <div class="product">
-                <img src="https://placehold.co/300x200?text=Watch" alt="Smart Watch">
-                <h3>Smart Watch</h3>
-                <p>₹4,999</p>
-            </div>
+<div class="category-grid">
 
-        </div>
-    </section>
+<a href="products.html" class="category-card">
+<div class="category-icon">💻</div>
+<h3>Laptops</h3>
+<p>Power & Performance</p>
+</a>
 
-</main>
+<a href="products.html" class="category-card">
+<div class="category-icon">📱</div>
+<h3>Smartphones</h3>
+<p>Innovation in your hand</p>
+</a>
+
+<a href="products.html" class="category-card">
+<div class="category-icon">🎧</div>
+<h3>Audio</h3>
+<p>Experience every sound</p>
+</a>
+
+<a href="products.html" class="category-card">
+<div class="category-icon">⌚</div>
+<h3>Wearables</h3>
+<p>Smart everyday living</p>
+</a>
+
+</div>
+</section>
+
+<section class="why-us">
+<div class="section-title">
+<p>WHY KRISH TECH?</p>
+<h2>Technology You Can Trust</h2>
+</div>
+
+<div class="benefits">
+
+<div class="benefit">
+<div>🚚</div>
+<h3>Fast Delivery</h3>
+<p>Quick and reliable delivery to your doorstep.</p>
+</div>
+
+<div class="benefit">
+<div>🔒</div>
+<h3>Secure Payment</h3>
+<p>Your transactions are safe and protected.</p>
+</div>
+
+<div class="benefit">
+<div>⭐</div>
+<h3>Premium Quality</h3>
+<p>Carefully selected products with great quality.</p>
+</div>
+
+<div class="benefit">
+<div>💬</div>
+<h3>24/7 Support</h3>
+<p>We're always here when you need us.</p>
+</div>
+
+</div>
+</section>
 
 <footer>
-    <p>Contact: support@techstore.com</p>
-    <p>© 2026 TechStore</p>
+<div class="footer-logo">KRRISH<span>TECH</span></div>
+<p>Your destination for next-generation technology.</p>
+<p class="copyright">© 2026 Krrish Tech Store. All Rights Reserved.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
